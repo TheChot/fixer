@@ -30,7 +30,7 @@ class ViewProfile extends Component {
 
         return (
 
-            <div>
+            <div className="blueBackground">
 
                 {(userData) ? <div className='container' >
                     <h3 className='mb-3 mt-3'>Your Profile</h3>

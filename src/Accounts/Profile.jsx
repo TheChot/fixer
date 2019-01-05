@@ -39,7 +39,7 @@ class Profile extends React.Component {
         const { userUID } = this.state;
         return (
 
-            <div>
+            <div className="blueBackground">
                 <Navbar userUID={this.state.userUID} />
                 {(userUID) ?
                     <div className="row container-fluid justify-content-start mt-4">

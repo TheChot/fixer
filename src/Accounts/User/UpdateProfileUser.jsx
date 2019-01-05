@@ -162,7 +162,7 @@ class UpdateProfileUser extends Component {
     render() {
 
         return (
-            <div>
+            <div className="blueBackground">
                 <Navbar />
                 <br />
                 <br />
